@@ -23,15 +23,8 @@
 
 
 ### 🖱️ การใช้งาน
-[win-x64 (Window)](https://drive.google.com/file/d/1dd5MqFP_p3UetFJI1rUGORhxAi9m6JJa/view?usp=drive_link)
-<br/>
-[linux-x64 (Linux)](https://drive.google.com/file/d/1JQ90egw1SowxhX3S_IyS_PekUEpKBcw-/view?usp=drive_link)
-<br/>
-[osx-arm64 (Apple Silicon) ](https://drive.google.com/file/d/1cSzPfPRsiG-wqlYm5ficS3O9ks05X9fd/view?usp=drive_link)
-<br/>
-[osx-x64 (Intel)](https://drive.google.com/file/d/12DloSBNX8P-5taY8wqufLp1MyCwjT0TD/view?usp=drive_link)
 
-### 1. Windows 💻
+### 1. Windows 💻  [win-x64 (Window)](https://drive.google.com/file/d/1dd5MqFP_p3UetFJI1rUGORhxAi9m6JJa/view?usp=drive_link)
 **ขั้นตอนในการเปิดไฟล์ ZIP:**
 1. เมื่อดาวน์โหลดเสร็จแล้ว ให้คลิกขวาที่ไฟล์ ZIP
    - เลือก **Extract All...** หรือ **แตกไฟล์ทั้งหมด**
@@ -39,8 +32,8 @@
 2. หลังจากแตกไฟล์แล้ว คุณจะเห็นโฟลเดอร์ที่มีไฟล์ทั้งหมด
 3. คลิกที่ไฟล์ **.exe** เพื่อเปิดโปรแกรมของคุณและเริ่มใช้งาน
 
-### 2. macOS (Apple Silicon / M1, M2 & Intel) 🍏
-**ขั้นตอนในการเปิดไฟล์ ZIP:**
+### 2. macOS (Apple Silicon / M1, M2 & Intel) 🍏 [osx-arm64 (Apple Silicon) ](https://drive.google.com/file/d/1cSzPfPRsiG-wqlYm5ficS3O9ks05X9fd/view?usp=drive_link) , [osx-x64 (Intel)](https://drive.google.com/file/d/12DloSBNX8P-5taY8wqufLp1MyCwjT0TD/view?usp=drive_link)
+**ขั้นตอนในการเปิดไฟล์ ZIP:** 
 1. เมื่อดาวน์โหลดเสร็จแล้ว ให้ดับเบิลคลิกที่ไฟล์ ZIP
    - macOS จะทำการแตกไฟล์โดยอัตโนมัติ และคุณจะเห็นโฟลเดอร์ที่มีไฟล์ทั้งหมด
 2. เปิด **Terminal** (จาก **Applications > Utilities > Terminal**)
@@ -55,7 +48,7 @@
  
   
 
-### 3. Linux 🐧
+### 3. Linux 🐧 [linux-x64 (Linux)](https://drive.google.com/file/d/1JQ90egw1SowxhX3S_IyS_PekUEpKBcw-/view?usp=drive_link)
 **ขั้นตอนในการเปิดไฟล์ ZIP:**
 1. เมื่อดาวน์โหลดเสร็จแล้ว ให้เปิด **Terminal** (สามารถกด `Ctrl + Alt + T` เพื่อเปิด)
 2. ใช้คำสั่ง `cd` ไปยังโฟลเดอร์ที่ไฟล์ ZIP ถูกบันทึก
