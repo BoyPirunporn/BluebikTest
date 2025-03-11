@@ -23,9 +23,13 @@
 
 
 ### 🖱️ การใช้งาน
-[win-x64](https://drive.google.com/file/d/1dd5MqFP_p3UetFJI1rUGORhxAi9m6JJa/view?usp=drive_link)
-[osx-arm64](https://drive.google.com/file/d/1cSzPfPRsiG-wqlYm5ficS3O9ks05X9fd/view?usp=drive_link)
-[osx-x64](https://drive.google.com/file/d/12DloSBNX8P-5taY8wqufLp1MyCwjT0TD/view?usp=drive_link)
+[win-x64 (Window)](https://drive.google.com/file/d/1dd5MqFP_p3UetFJI1rUGORhxAi9m6JJa/view?usp=drive_link)
+<br/>
+[linux-x64 (Linux)](https://drive.google.com/file/d/1JQ90egw1SowxhX3S_IyS_PekUEpKBcw-/view?usp=drive_link)
+<br/>
+[osx-arm64 (Apple Silicon) ](https://drive.google.com/file/d/1cSzPfPRsiG-wqlYm5ficS3O9ks05X9fd/view?usp=drive_link)
+<br/>
+[osx-x64 (Intel)](https://drive.google.com/file/d/12DloSBNX8P-5taY8wqufLp1MyCwjT0TD/view?usp=drive_link)
 
 ### 1. Windows 💻
 **ขั้นตอนในการเปิดไฟล์ ZIP:**
@@ -35,7 +39,7 @@
 3. หลังจากแตกไฟล์แล้ว คุณจะเห็นโฟลเดอร์ที่มีไฟล์ทั้งหมด
 4. คลิกที่ไฟล์ **.exe** เพื่อเปิดโปรแกรมของคุณและเริ่มใช้งาน
 
-### 2. macOS 🍏
+### 2. macOS (osx-arm64 - Apple Silicon / M1, M2) 🍏
 **ขั้นตอนในการเปิดไฟล์ ZIP:**
 1. เมื่อดาวน์โหลดเสร็จแล้ว ให้ดับเบิลคลิกที่ไฟล์ ZIP
    - macOS จะทำการแตกไฟล์โดยอัตโนมัติ และคุณจะเห็นโฟลเดอร์ที่มีไฟล์ทั้งหมด
