@@ -16,7 +16,9 @@ class Program
     public static void Main(string[] args)
     {
         var serviceProvider = new ServiceCollection()
-            .AddSingleton<IModuleService, ModuleService>()
+            .AddSingleton<ITextProcessingService, TextProcessingService>()
+            .AddSingleton<INumberConvertsionService, NumberConvertsionService>()
+            .AddSingleton<INumberPairService, NumberPairService>()
             .AddSingleton<ModuleController>()
             .AddSingleton<Program>()
             .BuildServiceProvider();

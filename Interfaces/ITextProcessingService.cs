@@ -6,11 +6,9 @@ using System.Threading.Tasks;
 
 namespace BluebikTest.Interfaces
 {
-    public interface IModuleService
+    public interface ITextProcessingService
     {
         string FindMostCommonWord(string text);
-        int ConvertRomanToInteger(string roman);
 
-        string FindPairs(int[] input, int target);
     }
 }

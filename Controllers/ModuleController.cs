@@ -11,10 +11,14 @@ namespace BluebikTest.Controllers
 {
     public class ModuleController
     {
-        private readonly IModuleService moduleService;
-        public ModuleController(IModuleService moduleService)
+        private readonly ITextProcessingService textService;
+        private readonly INumberConvertsionService convertRomanService;
+        private readonly INumberPairService numberPairService;
+        public ModuleController(ITextProcessingService textService, INumberConvertsionService convertRomanService, INumberPairService numberPairService)
         {
-            this.moduleService = moduleService;
+            this.textService = textService;
+            this.convertRomanService = convertRomanService;
+            this.numberPairService = numberPairService;
         }
 
         public void FindMostCommonWord()
@@ -42,7 +46,7 @@ namespace BluebikTest.Controllers
                         break; // ออกจากลูปและกลับไปที่เมนูหลัก
                     }
 
-                    string result = moduleService.FindMostCommonWord(text);
+                    string result = textService.FindMostCommonWord(text);
                     Console.WriteLine("OUTPUT : " + result);
 
                     Console.WriteLine("\nPress Enter to try again, or type 'exit' or 'quit' to go back to the menu...");
@@ -54,14 +58,16 @@ namespace BluebikTest.Controllers
                         break; // ออกจากลูปและกลับไปที่เมนูหลัก
                     }
                 }
-                catch (Exception ex) {
+                catch (Exception ex)
+                {
                     Console.WriteLine(ex.Message);
                     Console.Read();
                     continue;
                 }
             }
         }
-        public void ConvertRomanToInteger() {
+        public void ConvertRomanToInteger()
+        {
             while (true)
             {
                 Console.Clear();
@@ -91,8 +97,8 @@ namespace BluebikTest.Controllers
                     Console.ReadLine();
                     continue;
                 }
-                
-                int result = moduleService.ConvertRomanToInteger(romanFormat);
+
+                int result = convertRomanService.ConvertRomanToInteger(romanFormat);
                 Console.WriteLine($"OUTPUT : {romanFormat} => {result}");
                 Console.WriteLine("\nPress Enter to try again, or type 'exit' or 'quit' to go back to the menu...");
                 if (ExitToManu(Console.ReadLine()!))
@@ -102,7 +108,8 @@ namespace BluebikTest.Controllers
 
             }
         }
-        public void FindPairs() {
+        public void FindPairs()
+        {
             while (true)
             {
                 try
@@ -123,7 +130,7 @@ namespace BluebikTest.Controllers
 
                     int[] inputListNum = input.Split(",").Select(x => int.Parse(x.Trim())).ToArray();
 
-                    string result = moduleService.FindPairs(inputListNum, target);
+                    string result = numberPairService.FindPairs(inputListNum, target);
                     Console.WriteLine($"OUTPUT : {result}");
 
                     Console.WriteLine("\nPress Enter to try again, or type 'exit' or 'quit' to go back to the menu...");
@@ -142,7 +149,7 @@ namespace BluebikTest.Controllers
                     continue;
                 }
             }
-        
+
         }
 
         private bool ExitToManu(string check)
